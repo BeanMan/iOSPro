@@ -15,6 +15,16 @@
 		0728768F20D21CC100EC2C13 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0728768E20D21CC100EC2C13 /* main.m */; };
 		0728769920D21CC100EC2C13 /* iOSProTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0728769820D21CC100EC2C13 /* iOSProTests.m */; };
 		072876A420D21CC100EC2C13 /* iOSProUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 072876A320D21CC100EC2C13 /* iOSProUITests.m */; };
+		072876B620D2472200EC2C13 /* AppDelegateDes in Resources */ = {isa = PBXBuildFile; fileRef = 072876B520D2472200EC2C13 /* AppDelegateDes */; };
+		072876BA20D2475200EC2C13 /* ModulesDes in Resources */ = {isa = PBXBuildFile; fileRef = 072876B920D2475200EC2C13 /* ModulesDes */; };
+		072876BF20D2477C00EC2C13 /* ManagerDes in Resources */ = {isa = PBXBuildFile; fileRef = 072876BE20D2477C00EC2C13 /* ManagerDes */; };
+		072876C220D2479A00EC2C13 /* UtilsDes in Resources */ = {isa = PBXBuildFile; fileRef = 072876C120D2479A00EC2C13 /* UtilsDes */; };
+		072876C520D247AC00EC2C13 /* BaseDes in Resources */ = {isa = PBXBuildFile; fileRef = 072876C420D247AC00EC2C13 /* BaseDes */; };
+		072876C820D247C500EC2C13 /* ThirdPartyDes in Resources */ = {isa = PBXBuildFile; fileRef = 072876C720D247C500EC2C13 /* ThirdPartyDes */; };
+		072876CB20D247DA00EC2C13 /* DefineDes in Resources */ = {isa = PBXBuildFile; fileRef = 072876CA20D247DA00EC2C13 /* DefineDes */; };
+		072876CE20D2480400EC2C13 /* ResourceDes in Resources */ = {isa = PBXBuildFile; fileRef = 072876CD20D2480400EC2C13 /* ResourceDes */; };
+		072876D120D2483100EC2C13 /* Supporting Files Des in Resources */ = {isa = PBXBuildFile; fileRef = 072876D020D2483100EC2C13 /* Supporting Files Des */; };
+		072876D420D24B3000EC2C13 /* AppDelegate+AppService.m in Sources */ = {isa = PBXBuildFile; fileRef = 072876D320D24B3000EC2C13 /* AppDelegate+AppService.m */; };
 		13C8C943220416D175BCAF4A /* libPods-iOSPro.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0474114D4AB1357D5A3BCB4F /* libPods-iOSPro.a */; };
 /* End PBXBuildFile section */
 
@@ -54,6 +64,22 @@
 		0728769F20D21CC100EC2C13 /* iOSProUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSProUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		072876A320D21CC100EC2C13 /* iOSProUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSProUITests.m; sourceTree = "<group>"; };
 		072876A520D21CC100EC2C13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		072876B520D2472200EC2C13 /* AppDelegateDes */ = {isa = PBXFileReference; lastKnownFileType = text; path = AppDelegateDes; sourceTree = "<group>"; };
+		072876B920D2475200EC2C13 /* ModulesDes */ = {isa = PBXFileReference; lastKnownFileType = text; path = ModulesDes; sourceTree = "<group>"; };
+		072876BE20D2477C00EC2C13 /* ManagerDes */ = {isa = PBXFileReference; lastKnownFileType = text; path = ManagerDes; sourceTree = "<group>"; };
+		072876C120D2479A00EC2C13 /* UtilsDes */ = {isa = PBXFileReference; lastKnownFileType = text; path = UtilsDes; sourceTree = "<group>"; };
+		072876C420D247AC00EC2C13 /* BaseDes */ = {isa = PBXFileReference; lastKnownFileType = text; path = BaseDes; sourceTree = "<group>"; };
+		072876C720D247C500EC2C13 /* ThirdPartyDes */ = {isa = PBXFileReference; lastKnownFileType = text; path = ThirdPartyDes; sourceTree = "<group>"; };
+		072876CA20D247DA00EC2C13 /* DefineDes */ = {isa = PBXFileReference; lastKnownFileType = text; path = DefineDes; sourceTree = "<group>"; };
+		072876CD20D2480400EC2C13 /* ResourceDes */ = {isa = PBXFileReference; lastKnownFileType = text; path = ResourceDes; sourceTree = "<group>"; };
+		072876D020D2483100EC2C13 /* Supporting Files Des */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Supporting Files Des"; sourceTree = "<group>"; };
+		072876D220D24B3000EC2C13 /* AppDelegate+AppService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+AppService.h"; sourceTree = "<group>"; };
+		072876D320D24B3000EC2C13 /* AppDelegate+AppService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+AppService.m"; sourceTree = "<group>"; };
+		072876D920D24C1E00EC2C13 /* UtilsMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UtilsMacros.h; sourceTree = "<group>"; };
+		072876DA20D24C2C00EC2C13 /* URLMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = URLMacros.h; sourceTree = "<group>"; };
+		072876DB20D24C3A00EC2C13 /* FontAndColorMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FontAndColorMacros.h; sourceTree = "<group>"; };
+		072876DC20D24C4600EC2C13 /* ThirdMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdMacros.h; sourceTree = "<group>"; };
+		072876DD20D2547900EC2C13 /* iOSPro.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOSPro.pch; sourceTree = "<group>"; };
 		96AC6A3F5151ADF0D6EF58A5 /* Pods-iOSPro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSPro.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSPro/Pods-iOSPro.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -108,15 +134,21 @@
 		0728767E20D21CC000EC2C13 /* iOSPro */ = {
 			isa = PBXGroup;
 			children = (
-				0728767F20D21CC000EC2C13 /* AppDelegate.h */,
-				0728768020D21CC000EC2C13 /* AppDelegate.m */,
-				0728768220D21CC000EC2C13 /* ViewController.h */,
-				0728768320D21CC000EC2C13 /* ViewController.m */,
+				072876CF20D2480C00EC2C13 /* Supporting Files */,
+				072876CC20D247E800EC2C13 /* Resource */,
+				072876C920D247CD00EC2C13 /* Define */,
+				072876C620D247B500EC2C13 /* ThirdParty */,
+				072876C320D247A000EC2C13 /* Base */,
+				072876C020D2478B00EC2C13 /* Utils */,
+				072876BB20D2476400EC2C13 /* Manager */,
+				072876B820D2474000EC2C13 /* Modules */,
+				072876B120D246C200EC2C13 /* AppDelegate */,
 				0728768520D21CC000EC2C13 /* Main.storyboard */,
 				0728768820D21CC100EC2C13 /* Assets.xcassets */,
 				0728768A20D21CC100EC2C13 /* LaunchScreen.storyboard */,
 				0728768D20D21CC100EC2C13 /* Info.plist */,
 				0728768E20D21CC100EC2C13 /* main.m */,
+				072876DD20D2547900EC2C13 /* iOSPro.pch */,
 			);
 			path = iOSPro;
 			sourceTree = "<group>";
@@ -137,6 +169,120 @@
 				072876A520D21CC100EC2C13 /* Info.plist */,
 			);
 			path = iOSProUITests;
+			sourceTree = "<group>";
+		};
+		072876B120D246C200EC2C13 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				072876B520D2472200EC2C13 /* AppDelegateDes */,
+				0728767F20D21CC000EC2C13 /* AppDelegate.h */,
+				0728768020D21CC000EC2C13 /* AppDelegate.m */,
+				072876D220D24B3000EC2C13 /* AppDelegate+AppService.h */,
+				072876D320D24B3000EC2C13 /* AppDelegate+AppService.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		072876B820D2474000EC2C13 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				0728768220D21CC000EC2C13 /* ViewController.h */,
+				0728768320D21CC000EC2C13 /* ViewController.m */,
+				072876B920D2475200EC2C13 /* ModulesDes */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		072876BB20D2476400EC2C13 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				072876BE20D2477C00EC2C13 /* ManagerDes */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		072876C020D2478B00EC2C13 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				072876C120D2479A00EC2C13 /* UtilsDes */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		072876C320D247A000EC2C13 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				072876D820D24BED00EC2C13 /* WebViewController */,
+				072876D720D24BDF00EC2C13 /* NavigationController */,
+				072876D620D24BD400EC2C13 /* RootViewController */,
+				072876D520D24BC800EC2C13 /* TabbarController */,
+				072876C420D247AC00EC2C13 /* BaseDes */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		072876C620D247B500EC2C13 /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				072876C720D247C500EC2C13 /* ThirdPartyDes */,
+			);
+			path = ThirdParty;
+			sourceTree = "<group>";
+		};
+		072876C920D247CD00EC2C13 /* Define */ = {
+			isa = PBXGroup;
+			children = (
+				072876CA20D247DA00EC2C13 /* DefineDes */,
+				072876D920D24C1E00EC2C13 /* UtilsMacros.h */,
+				072876DA20D24C2C00EC2C13 /* URLMacros.h */,
+				072876DB20D24C3A00EC2C13 /* FontAndColorMacros.h */,
+				072876DC20D24C4600EC2C13 /* ThirdMacros.h */,
+			);
+			path = Define;
+			sourceTree = "<group>";
+		};
+		072876CC20D247E800EC2C13 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				072876CD20D2480400EC2C13 /* ResourceDes */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		072876CF20D2480C00EC2C13 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				072876D020D2483100EC2C13 /* Supporting Files Des */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		072876D520D24BC800EC2C13 /* TabbarController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TabbarController;
+			sourceTree = "<group>";
+		};
+		072876D620D24BD400EC2C13 /* RootViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = RootViewController;
+			sourceTree = "<group>";
+		};
+		072876D720D24BDF00EC2C13 /* NavigationController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NavigationController;
+			sourceTree = "<group>";
+		};
+		072876D820D24BED00EC2C13 /* WebViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = WebViewController;
 			sourceTree = "<group>";
 		};
 		2FCA4887A6C913C86F604D19 /* Pods */ = {
@@ -261,8 +407,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				0728768C20D21CC100EC2C13 /* LaunchScreen.storyboard in Resources */,
+				072876BA20D2475200EC2C13 /* ModulesDes in Resources */,
 				0728768920D21CC100EC2C13 /* Assets.xcassets in Resources */,
+				072876BF20D2477C00EC2C13 /* ManagerDes in Resources */,
+				072876B620D2472200EC2C13 /* AppDelegateDes in Resources */,
 				0728768720D21CC000EC2C13 /* Main.storyboard in Resources */,
+				072876D120D2483100EC2C13 /* Supporting Files Des in Resources */,
+				072876C820D247C500EC2C13 /* ThirdPartyDes in Resources */,
+				072876CE20D2480400EC2C13 /* ResourceDes in Resources */,
+				072876C520D247AC00EC2C13 /* BaseDes in Resources */,
+				072876CB20D247DA00EC2C13 /* DefineDes in Resources */,
+				072876C220D2479A00EC2C13 /* UtilsDes in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,6 +463,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				072876D420D24B3000EC2C13 /* AppDelegate+AppService.m in Sources */,
 				0728768420D21CC000EC2C13 /* ViewController.m in Sources */,
 				0728768F20D21CC100EC2C13 /* main.m in Sources */,
 				0728768120D21CC000EC2C13 /* AppDelegate.m in Sources */,
@@ -481,8 +637,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/iOSPro/iOSPro.pch";
 				INFOPLIST_FILE = iOSPro/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = ss.iOSPro;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -495,8 +655,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/iOSPro/iOSPro.pch";
 				INFOPLIST_FILE = iOSPro/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = ss.iOSPro;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -509,7 +673,11 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = iOSProTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = ss.iOSProTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -523,7 +691,11 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = iOSProTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = ss.iOSProTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -536,7 +708,11 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = iOSProUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = ss.iOSProUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -549,7 +725,11 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = iOSProUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = ss.iOSProUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
