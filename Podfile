@@ -1,6 +1,6 @@
-# Uncomment the next line to define a global platform for your project
-platform :ios, '8.0' # 指定要添加依赖的主工程的运行平台，适配的最低版本
 
+platform :ios, '8.0' # 指定要添加依赖的主工程的运行平台，适配的最低版本
+inhibit_all_warnings! #忽略掉第三方库警告
 target 'iOSPro' do # 指定要添加依赖的target
   
 pod 'FMDB'

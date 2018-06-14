@@ -122,12 +122,12 @@
 /**
  当前系统版本
  */
-#define CurrentSystemVersion[[UIDevice currentDevice].systemVersion doubleValue]
+#define CurrentSystemVersion [[UIDevice currentDevice].systemVersion doubleValue]
 
 /**
  当前语言
  */
-#define CurrentLanguage([NSLocale preferredLanguages]objectAtIndex:0])
+#define CurrentLanguage ([[NSLocale preferredLanguages]objectAtIndex:0])
 
 //-------------------打印日志-------------------------
 /**
@@ -191,7 +191,6 @@
 
 //获取一段时间间隔
 #define kStartTime CFAbsoluteTime start = CFAbsoluteTimeGetCurrent();
-#define kEndTimeNSLog(@"Time: %f",CFAbsoluteTimeGetCurrent()- start)
 
 /**
  打印当前方法名

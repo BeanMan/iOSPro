@@ -17,35 +17,35 @@
 /**
  透明色
  */
-#define KClearColor[UIColor clearColor]
+#define KClearColor [UIColor clearColor]
 /**
  白色
  */
-#define KWhiteColor[UIColor whiteColor]
+#define KWhiteColor [UIColor whiteColor]
 /**
  黑色
  */
-#define KBlackColor[UIColor blackColor]
+#define KBlackColor [UIColor blackColor]
 /**
  灰色
  */
-#define KGrayColor[UIColor grayColor]
+#define KGrayColor [UIColor grayColor]
 /**
  亮灰色
  */
-#define KGray2Color[UIColor lightGrayColor]
+#define KGray2Color [UIColor lightGrayColor]
 /**
  蓝色
  */
-#define KBlueColor[UIColor blueColor]
+#define KBlueColor [UIColor blueColor]
 /**
  红色
  */
-#define KRedColor[UIColor redColor]
+#define KRedColor [UIColor redColor]
 /**
  随机色
  */
-#define kRandomColorKRGBColor(arc4random_uniform(256)/255.0,arc4random_uniform(256)/255.0,arc4random_uniform(256)/255.0)
+#define kRandomColorKRGBColor (arc4random_uniform(256)/255.0,arc4random_uniform(256)/255.0,arc4random_uniform(256)/255.0)
 
 
 /*字体*/
